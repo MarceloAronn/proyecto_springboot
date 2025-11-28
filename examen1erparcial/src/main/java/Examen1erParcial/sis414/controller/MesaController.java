@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://marceloaronn.github.io"})
 @RestController
 @RequestMapping("/mesas")
 public class MesaController {
